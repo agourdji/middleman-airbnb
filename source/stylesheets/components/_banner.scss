@@ -6,10 +6,11 @@
   background-size: cover;
   height: calc(100vh - 70px);
   background-position: bottom;
+  margin-bottom: 60px;
 }
 
 .banner-content {
-  color: white;
+  color: $white;
   text-align: center;
   h1 {
     font-size: 38px;

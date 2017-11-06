@@ -24,24 +24,12 @@
   }
 }
 
-.btn-treehouse {
-  background-color: #6AD58B;
-  border-radius: 4px;
-  padding: 10px 20px;
-  color: white;
-  font-weight: bold;
-  transition: .4s;
-  &:hover {
-    background-color: #42BF66;
-  }
-}
-
 .iconfont {
   font-size: 18px;
-  color: #9F9F9F;
+  color: $gray-med;
   transition: .2s;
   &:hover {
-    color: #D61B27;
+    color: $red;
   }
 }
 

@@ -1,6 +1,7 @@
 /* Your card CSS code here */
 .cards {
   display: flex;
+  margin-top: 60px;
 }
 
 .card {
@@ -23,7 +24,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  color: rgba(255,255,255,.8)
+  color: rgba(255,255,255,.9)
 }
 
 .card-avatar {
@@ -49,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: grey;
+    color: $gray;
     font-size: 12px;
     padding: 20px 15px;
     p {
