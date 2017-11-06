@@ -1,0 +1,21 @@
+agourdji:
+  name: "Audrey's home"
+  description: "Loft in Old Port"
+  city_name: "Montreal, Canada"
+  property_slug: "old_port_loft.jpg"
+  wifi: true
+  rating: 5
+thebluebeard:
+  name: "Lan's home"
+  description: "Bund View Flat"
+  city_name: "Shanghai, China"
+  property_slug: "shanghai.jpg"
+  wifi: true
+  rating: 4
+AdamJosephKalimi:
+  name: "Adam's home"
+  description: "Beach View in Miami"
+  city_name: "Miami, USA"
+  property_slug: "miami.jpg"
+  wifi: false
+  rating: 4

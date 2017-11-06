@@ -63,3 +63,28 @@ title: Le Wagon - Middleman
     </div>
   </div>
 </div>
+
+<!-- Recent Flats -->
+
+<div class="container">
+  <h2 class="text-center">Recent Flats</h2>
+  <div class="cards">
+    <!-- Code your cards here -->
+    <% data.flats.each do |owner, flat| %>
+      <div class="card">
+        <div class="card-body" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/<%= flat.property_slug %>')">
+          <p class="card-cat"><%= flat.city_name %></p>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class:"avatar card-avatar" %>
+          <div class="card-description">
+            <p class="property-title"><%= flat.name %></p>
+            <p><%= flat.description %></p>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p>Posted on 22/10/2017</p>
+          <a href="#"><i class="iconfont icon-like"></i></a>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
