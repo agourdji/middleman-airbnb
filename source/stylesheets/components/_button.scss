@@ -1,0 +1,47 @@
+/* Your button CSS code here */
+@font-face {
+  font-family: 'iconfont';  /* project id 461932 */
+  src: url('//at.alicdn.com/t/font_461932_u81md8kw142c5wmi.eot');
+  src: url('//at.alicdn.com/t/font_461932_u81md8kw142c5wmi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_461932_u81md8kw142c5wmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_461932_u81md8kw142c5wmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_461932_u81md8kw142c5wmi.svg#iconfont') format('svg');
+}
+
+.btn-medium {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255,255,255,.5);
+  border-radius: 22px;
+  padding: 10px 20px;
+  color: rgba(255,255,255,.5);
+  font-weight: 300;
+  transition: .2s;
+  &:hover {
+    color: white;
+    border-color: white;
+    background-color: rgba(255,255,255,.2)
+  }
+}
+
+.btn-treehouse {
+  background-color: #6AD58B;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  transition: .4s;
+  &:hover {
+    background-color: #42BF66;
+  }
+}
+
+.iconfont {
+  font-size: 18px;
+  color: #9F9F9F;
+  transition: .2s;
+  &:hover {
+    color: #D61B27;
+  }
+}
+
